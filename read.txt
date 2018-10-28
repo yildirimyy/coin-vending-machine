@@ -1,0 +1,63 @@
+1) lcd 
+	
+	RS  => PB0 	
+	E   => PB1
+	D4  => PB4
+	D5  => PB5
+	D6  => PB6
+	D7  => PB7
+	vss => gnd
+	vdd => 3.3v (5v icin VBUS)
+	rw  => gnd
+	
+	anot => +
+	katot => -
+	
+2) potansiyometre
+
+	1.pin => +
+	2.pin(orta) => lcd VO
+	3.pin => -
+
+3) buttonlar
+
+     4 bacakli button
+	1 2		1 => 10k direnç ile + ya 
+	3 4		2 => -
+    
+    3.bacak =>
+	     1.button => PE0
+	     2.button => PE1
+	     3.button => PE2
+	     4.button => PE3
+	     5.button => PE4
+	     6.button => PE5
+	     7.button => PF4
+	          
+4) ledler
+
+	-0-- kısa bacak 330ohm direnç ile - ye
+
+	uzun bacak => 	
+		1.led => PA2
+		2.led => PA3
+		3.led => PA4
+		4.led => PA5
+		5.led => PA6
+		6.led => PA7
+		7.led => PF2
+	
+	
+	
+	
+	
+
+     
+     
+     
+     
+     
+     
+     
+	
+	
